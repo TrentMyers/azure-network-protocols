@@ -11,20 +11,6 @@
   <p>This guide details the steps for setting up Network Security Groups and inspecting various network protocols using Wireshark in Microsoft Azure.</p>
 </header>
 
-<nav>
-  <h2>Table of Contents</h2>
-  <ol>
-    <li><a href="#create-resources">Create Resources</a></li>
-    <li><a href="#observe-icmp">Observe ICMP Traffic</a></li>
-    <li><a href="#observe-ssh">Observe SSH Traffic</a></li>
-    <li><a href="#observe-dhcp">Observe DHCP Traffic</a></li>
-    <li><a href="#observe-dns">Observe DNS Traffic</a></li>
-    <li><a href="#observe-rdp">Observe RDP Traffic</a></li>
-    <li><a href="#lab-cleanup">Lab Cleanup</a></li>
-  </ol>
-</nav>
-
-<section id="create-resources">
   <h2>Create Resources</h2>
   <ul>
     <li>Create a Resource Group in Azure.</li>
@@ -33,7 +19,6 @@
   </ul>
 </section>
 
-<section id="observe-icmp">
   <h2>Observe ICMP Traffic</h2>
   <ul>
     <li>Use Remote Desktop to access your Windows VM and install Wireshark.</li>
@@ -42,7 +27,6 @@
   </ul>
 </section>
 
-<section id="observe-ssh">
   <h2>Observe SSH Traffic</h2>
   <ul>
     <li>Filter for SSH traffic in Wireshark.</li>
@@ -51,7 +35,6 @@
   </ul>
 </section>
 
-<section id="observe-dhcp">
   <h2>Observe DHCP Traffic</h2>
   <ul>
     <li>Filter for DHCP traffic in Wireshark.</li>
@@ -59,7 +42,6 @@
   </ul>
 </section>
 
-<section id="observe-dns">
   <h2>Observe DNS Traffic</h2>
   <ul>
     <li>Set Wireshark to filter DNS traffic.</li>
@@ -67,7 +49,6 @@
   </ul>
 </section>
 
-<section id="observe-rdp">
   <h2>Observe RDP Traffic</h2>
   <ul>
     <li>Filter Wireshark for RDP traffic using the specific TCP port.</li>
@@ -75,7 +56,6 @@
   </ul>
 </section>
 
-<section id="lab-cleanup">
   <h2>Lab Cleanup</h2>
   <ul>
     <li>Terminate all sessions and close Wireshark.</li>
