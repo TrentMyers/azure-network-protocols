@@ -3,8 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Azure NSG and Protocol Inspection Guide</title>
-<link rel="stylesheet" href="styles.css"> <!-- Link your CSS stylesheet here -->
 </head>
 <body>
 
